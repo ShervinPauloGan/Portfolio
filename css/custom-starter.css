@@ -1,0 +1,37 @@
+body{
+	background-color: #222222;
+}
+
+header {
+	background: no-repeat center center;
+	background-size: cover;
+	color: white;
+	height: 825px;
+}
+.navbar.navbar-light .navbar-nav .nav-link {
+    color: white; 
+    margin-left: 20px;
+    font-family: segoe ui;
+    font-size: 20px;
+    font-weight: 500;
+}
+.color-overlay {
+	background-color: rgba(0, 0, 0, 0.4);
+	min-height: 85vh;
+}
+.singleCol{
+	max-width: 750px;
+	background-color: white;
+}
+footer {
+	background-color: #3a3a3a;
+	color: white;
+}
+footer a:hover {
+	color: white;
+}
+@media (max-width:  750px){
+	.color-overlay{
+		min-height: 30vh;
+	}
+}
