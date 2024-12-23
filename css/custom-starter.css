@@ -12,6 +12,9 @@ header {
 	height: 130px;
 
 }
+h3{
+	color: #dddddd;
+}
 .container1{
 	background: no-repeat center center;
 	background-size: cover;
